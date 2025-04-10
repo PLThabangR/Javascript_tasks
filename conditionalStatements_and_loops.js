@@ -12,7 +12,7 @@ console.log("It's freezing")
 }
 
 //Using Switch statements
-switch(temperature){
+switch(true){
     case temperature <0:
     console.log("It's freezing")
     break;
