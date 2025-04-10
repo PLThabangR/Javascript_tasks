@@ -30,3 +30,30 @@ switch(true){
     break;
 
 }
+
+
+//Divisibilty check
+let a=42
+ if( a%2==0 && a%3==0){
+    console.log("Divisible by both")
+ }else if(a%2==0){
+    console.log("Divisible by 2")
+ }else if(a%3==0){
+    console.log("Divisible by 3")
+ }else{
+    console.log("Not divisible by 2 or 3")
+ }
+
+ switch(true){
+    case  a%2==0 && a%3==0:
+        console.log("Divisible by both")
+        break
+    case a%2==0:
+        console.log("Divisible by 2")
+        break
+    case a%3==0:
+            console.log("Divisible by 3")
+            break
+       default :
+       console.log("Not divisible by 2 or 3")
+        }
