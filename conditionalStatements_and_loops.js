@@ -59,7 +59,8 @@ let a=42
         }
 
 
-    //For loops
+// Exercise 3: for loops
+//For loops
 // Print numbers from 1 to 10.
 
     for(i=1; i<=10;i++){
@@ -101,3 +102,28 @@ let a=42
         
      }
      console.log("The max value is ",max)
+
+
+     //Exercise 4: While loops
+     //Print numbers from 1 to 10.
+num=1
+     while(num<=10){
+        console.log(num)
+        ++num
+     }
+
+//Print all even numbers between 1 and 20
+numbers20 =1
+while(numbers20<=20){
+    console.log(numbers20)
+    ++numbers20
+}
+
+//Calculate the sum of all numbers from 1 to 100 and print the result
+numbers100 =1
+sum=0
+while(numbers100<=100){
+    sum+=numbers100
+    console.log(numbers20)
+    ++numbers100
+}
