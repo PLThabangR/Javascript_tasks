@@ -57,3 +57,47 @@ let a=42
        default :
        console.log("Not divisible by 2 or 3")
         }
+
+
+    //For loops
+// Print numbers from 1 to 10.
+
+    for(i=1; i<=10;i++){
+        console.log(i)
+    }
+
+
+    //Print all even numbers between 1 and 20
+    for(i=1; i<=20;i++){
+        if(i%2==0){
+        console.log(i)}
+
+    }
+
+    //Calculating the sum of all numbers from 1 to 100 and print the result. Hint: ‘+=’
+    let sum=0
+    for(i=1; i<=100;i++){
+        
+        sum+=i
+            console.log(sum)
+    }
+
+    //Printing array elements
+    const numbers = [1, 2, 3, 4, 5]
+
+    for(i=0; i< numbers.length;i++){
+        console.log(numbers[i])
+    }
+
+
+    //Finding the largest value
+    const numbers2 = [3,7, 2, 5, 10, 6]  
+//making the first value the max
+     let max =numbers2[0]
+    for(i=0; i< numbers.length;i++){
+         if(numbers2[i]>max){
+             max=numbers2[i]
+         }
+        
+     }
+     console.log("The max value is ",max)
