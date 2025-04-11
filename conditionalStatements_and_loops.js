@@ -77,11 +77,10 @@ let a=42
 
     //Calculating the sum of all numbers from 1 to 100 and print the result. Hint: ‘+=’
     let sum=0
-    for(i=1; i<=100;i++){
-        
-        sum+=i
-            console.log(sum)
+    for(i=1; i<=100;i++){   
+        sum+=i      
     }
+    console.log("Sum of all numbers from 1 to 100 using for loop ",sum)
 
     //Printing array elements
     const numbers = [1, 2, 3, 4, 5]
@@ -124,6 +123,40 @@ numbers100 =1
 sum=0
 while(numbers100<=100){
     sum+=numbers100
-    console.log(numbers20)
+   
     ++numbers100
 }
+console.log("Sum of 1 to 100 using while loop ",sum)
+//Multiple of 50
+numbers100 =1
+while(numbers100<=50){
+  
+    if(numbers100%5==0){
+        console.log(numbers100)
+    }
+    
+    ++numbers100
+}
+
+
+//Exercise 5: Do While loops
+//Print numbers from 1 to 10
+let n=1
+let sum1=0
+do{
+console.log(n)
+++n
+} while (n<=10)
+
+
+
+
+
+    //Exercise 5: Do While loops
+let count=1
+let sum2=0
+do{
+    sum2+=count
+count++
+} while (count<=100)
+    console.log("Sum of 1 to 100 using do while loop ",sum2)
